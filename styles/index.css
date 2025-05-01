@@ -1,0 +1,80 @@
+h1{
+  color:blue;
+}
+
+span{
+  color:red;
+  font-weight: bolder;
+}
+
+header{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(14, 170, 14);
+}
+
+#div-intro{
+  text-align: center;
+  background-image: url("../images/eart.jpg");
+  color:rgb(54, 3, 54);
+}
+
+h3{
+  color:brown;
+  text-align: center;
+}
+
+#questions{
+  background-image: url("../images/heart.jpg");
+  background-repeat: no-repeat;
+  background-size: cover ;
+  text-align: center;
+}
+
+label{
+  color: rgb(16, 1, 44);
+  font-weight: 700;
+  font-size: larger;
+}
+
+button{
+  padding:15px 30px;
+  border:2px solid red;
+  color:rgb(6, 131, 58);
+  font-size: 1rem;
+  margin-bottom: 30px;
+}
+
+.images{
+  position: relative;
+}
+
+.comments{
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-30%,-30%);
+}
+b{
+  color:white;
+  font-size:2rem;
+  text-transform: uppercase;
+}
+h5{
+  color:gold;
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+.verypoor{
+  color:red;
+}
+.poor{
+  color:orangered;
+}
+.good{
+  color:blue;
+}
+.verygood{
+  color:green;
+}
