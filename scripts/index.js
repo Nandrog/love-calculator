@@ -74,11 +74,11 @@ function displays(){
   document.getElementById("num-5.1").addEventListener('click',add);
   document.getElementById("num-5.2").addEventListener('click',no);
 
-  document.getElementById("num-6.1").addEventListener('click',add);
-  document.getElementById("num-6.2").addEventListener('click',no);
+  document.getElementById("num-6.1").addEventListener('click',no);
+  document.getElementById("num-6.2").addEventListener('click',add);
 
-  document.getElementById("num-7.1").addEventListener('click',add);
-  document.getElementById("num-7.2").addEventListener('click',no);
+  document.getElementById("num-7.1").addEventListener('click',no);
+  document.getElementById("num-7.2").addEventListener('click',add);
 
   document.getElementById("num-8.1").addEventListener('click',add);
   document.getElementById("num-8.2").addEventListener('click',no);
@@ -100,6 +100,9 @@ function displays(){
 
   document.getElementById("submits").addEventListener('click',()=>{
     //alert('thank you');
+    if(result>90){
+      result=Math.floor(Math.random()*90);
+    }
     let you=document.getElementById("you").value;
   let partner=document.getElementById("partner").value;
     save(you,partner,result);
